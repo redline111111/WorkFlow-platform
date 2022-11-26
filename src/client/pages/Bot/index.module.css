@@ -1,0 +1,75 @@
+.main{
+    display: flex;
+    grid-gap:20px;
+}
+.container{
+    width: 90%;
+    margin: 80px auto;
+}
+.askForm{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    grid-gap:20px;
+}
+.askBlock{
+    width: 40vw;
+    height: 75vh;
+
+    background: #1A2334;
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.5);
+    border-radius: 18px;
+}
+.askHeader{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    color: white;
+}
+.askBody{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+.button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #6d44b8;
+}
+.askDescription{
+    font-size: 24px;
+}
+.askDescriptionAdmin{
+    font-size: 24px;
+    margin-top: 10px;
+    color: beige;
+    position: relative;
+}
+.asklabel{
+    font-size: 20px;
+    margin-top: 10px;
+    color: beige;
+}
+.text{
+    margin: 10px 0;
+    width: 200px;
+}
+.botResult{
+    margin-top: 20px;
+}

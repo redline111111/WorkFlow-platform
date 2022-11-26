@@ -1,7 +1,7 @@
 <h1 align="center">Workflow-platform</h1> 
 <h3 align="center">Проект разработан для Хакатона <a href="https://ityakutia.com/hack-the-ice" target="_blank">HACK-the-ICE</a></h3>
 
-Проект представляет собой клиентское приложение, которое взаимодействует с сервером. На сайте реализованы следующие страницы: Bot, Dashboard, Login/Registration, Profile. 
+Проект представляет собой клиентское приложение, которое взаимодействует с <a href="https://github.com/redline111111/Workflow-platform-server" target="_blank">сервером</a>. На сайте реализованы следующие страницы: Bot, Dashboard, Login/Registration, Profile. 
 
 ## Страница Bot
   

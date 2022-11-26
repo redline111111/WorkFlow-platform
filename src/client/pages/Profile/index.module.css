@@ -1,0 +1,62 @@
+.main{
+    background-image: url("../../../../public/background.svg");      
+    background-position: center center;      
+    background-repeat: no-repeat;          
+    background-size: cover;      
+    background-color: #464646; 
+    height: calc(100vh - 70px);
+    position: relative;
+}
+.info{
+    width: 50%;
+    padding-top: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+.avatar{
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 200px;
+}
+.field{
+    width: 100%;
+    height: 100px;
+    backdrop-filter: blur(11px);
+    background: url('../../../../public/button.svg');
+
+    margin-top: 30px;
+}
+.field2{
+    width: 100%;
+    height: 100px;
+    backdrop-filter: blur(11px);
+    background: url('../../../../public/button.svg');
+}
+.text{
+    height: 90%;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.name{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+.block{
+    height: 230px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
